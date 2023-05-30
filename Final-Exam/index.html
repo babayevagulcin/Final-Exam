@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+
+    <title>The Estate</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header-logo">
+            <img src="./assets/img/logo (2).png" alt="" />
+            <h4>The Estate</h4>
+          </div>
+          <nav>
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href=""> Listings</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="form.html">Add</a></li>
+              <li><a href="favorite.html">Favorite</a></li>
+            </ul>
+          </nav>
+          <div class="header-number">
+            <p>+0080 234 567 84441</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </header>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="container">
+        <div class="home">
+          <div class="home-content">
+            <h1>Find Your Home</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured">
+      <div class="container">
+        <div class="featured">
+          <div class="featured-content">
+            <h4>Featured Properties</h4>
+            <p>See our best offers</p>
+          </div>
+          <div class="sort-search">
+            <input type="text" class="search" size="110" placeholder="Search...">
+            <button class="sort">Ascending</button>
+          </div>
+
+            <div class="row featured-cards">
+              <!-- <div class="col-sm-12 col-lg-4 featured-card">
+                <img src="./assets/img/featured_1.jpg" alt="" />
+
+                <div class="cards-detail">
+                  <h5>House in West California</h5>
+                  <p>
+                    Donec ullamcorper nulla non metus auctor fringi
+                    lla.Curabitur blandit tempus porttitor.
+                  </p>
+                  <div class="rooms">
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/bedroom.png" alt="" />
+                        <span>4</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/shower.png" alt="" />
+                        <span>3</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/area.png" alt="" />
+                        <span>7100 Sq Ft</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/patio.png" alt="" />
+                        <span>1</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/garage.png" alt="" />
+                        <span>2</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="featured-buttons">
+                    <div class="featured-button">
+                      <p>Hottub</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Swimming Pool</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Garden</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Patio</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Hard Wood Floor</p>
+                    </div>
+                  </div>
+                  <span class="crud-icons">
+                    <a href="#" ><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="#" ><i class="fa-solid fa-trash-can"></i></a>
+                  </span>
+                </div>
+
+                <div class="featured-price">
+                  <i class="fa-solid fa-tags"></i>
+                  <div class="sale">
+                    <span>For Sale</span>
+                    <p>$540,000</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4 featured-card">
+                <img src="./assets/img/featured_2.jpg" alt="" />
+                <div class="cards-detail">
+                  <h5>House in West California</h5>
+                  <p>
+                    Donec ullamcorper nulla non metus auctor fringi
+                    lla.Curabitur blandit tempus porttitor.
+                  </p>
+                  <div class="rooms">
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/bedroom.png" alt="" />
+                        <span>4</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/shower.png" alt="" />
+                        <span>3</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/area.png" alt="" />
+                        <span>7100 Sq Ft</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/patio.png" alt="" />
+                        <span>1</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/garage.png" alt="" />
+                        <span>2</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="featured-buttons">
+                    <div class="featured-button">
+                      <p>Hottub</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Swimming Pool</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Garden</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Patio</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Hard Wood Floor</p>
+                    </div>
+                  </div>
+                  <span class="crud-icons">
+                    <a href="#" ><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="#" ><i class="fa-solid fa-trash-can"></i></a>
+                  </span>
+                </div>
+
+                <div class="featured-price">
+                  <i class="fa-solid fa-tags"></i>
+                  <div class="sale">
+                    <span>For Sale</span>
+                    <p>$540,000</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-lg-4 featured-card">
+                <img src="./assets/img/featured_3.jpg" alt="" />
+                <div class="cards-detail">
+                  <h5>House in West California</h5>
+                  <p>
+                    Donec ullamcorper nulla non metus auctor fringi
+                    lla.Curabitur blandit tempus porttitor.
+                  </p>
+                  <div class="rooms">
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/bedroom.png" alt="" />
+                        <span>4</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/shower.png" alt="" />
+                        <span>3</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/area.png" alt="" />
+                        <span>7100 Sq Ft</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/patio.png" alt="" />
+                        <span>1</span>
+                      </div>
+                    </div>
+                    <div class="rooms-content">
+                      <p>Bedrooms</p>
+                      <div class="room-img">
+                        <img src="./assets/img/garage.png" alt="" />
+                        <span>2</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="featured-buttons">
+                    <div class="featured-button">
+                      <p>Hottub</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Swimming Pool</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Garden</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Patio</p>
+                    </div>
+                    <div class="featured-button">
+                      <p>Hard Wood Floor</p>
+                    </div>
+                  </div>
+                  <span class="crud-icons">
+                    <a href="#" ><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="#" ><i class="fa-solid fa-trash-can"></i></a>
+                  </span>
+                </div>
+
+                <div class="featured-price">
+                  <i class="fa-solid fa-tags"></i>
+                  <div class="sale">
+                    <span>For Sale</span>
+                    <p>$540,000</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- CLIENT -->
+    <section id="client">
+      <div class="container">
+        <div class="client">
+          <div class="client-content">
+            <h4>Clients Testimonials</h4>
+            <p>See our best offers</p>
+          </div>
+          <div class="client-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae neque libero. Vivamus vel interdum massa. Mauris ut felis vel diam pretium eleifend vel eu neque. Mauris a condimentum tortor. Cras nec molestie est. Nulla vel facilisis metus. Quisque tempus fermentum enim, in feugiat sem laoreet</p>
+            <div class="person">
+              <img src="./assets/img/person.jpg" alt="">
+              <p class="natalie">natalie smith</p>
+              <p>Client in California</p>
+              <p></p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CITIES -->
+    <section id="cities">
+      <div class="container">
+        <div class="cities">
+          <div class="cities-content">
+              <h4>Cities Clients Prefer</h4>
+              <p>What you need to do</p>
+            </div>
+        </div>
+        <div class="row cities-cards">
+          <div class="col-sm-12 col-lg-2 cities-card">
+            <!-- <img src="./assets/img/city_1.jpg" alt=""> -->
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer">
+        <p>
+          Copyright ©2023 All rights reserved | This template is made with 
+          <i class="fa-regular fa-heart"></i> by <span>Colorlib</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+#cities {
+    background-image: url(/assets/img/world.png);
+    height: 100vh;
+    .cities {
+    margin-top: 100px;
+    .cities-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 10px;
+      padding-bottom: 70px;
+      &::before {
+        content: "";
+        border: 2px solid #fd784f;
+        height: 25px;
+      }
+      h4 {
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+      p {
+        font-weight: 800;
+        opacity: 0.5;
+      }
+    }
+    // .cities-cards{
+    //     .cities-card{
+    //         img{
+    //             width: auto;
+    //             height: 50px;
+    //         }
+    //     }
+    // }
+  }
+}

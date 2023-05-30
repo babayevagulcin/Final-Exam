@@ -1,0 +1,34 @@
+{
+  "houses": [
+    {
+      "id": "2",
+      "price": "540.000",
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "House in West California",
+      "content": "Donec"
+    },
+    {
+      "id": "1",
+      "price": "620.000",
+      "photo": "./assets/img/featured_2.jpg",
+      "title": "House in West America",
+      "content": "Donec ",
+      "caption": "House in West America",
+      "description": "Donec "
+    },
+    {
+      "id": "3",
+      "price": "180.000",
+      "photo": "./assets/img/featured_3.jpg",
+      "title": "House in West Brazilia",
+      "content": "Donec "
+    },
+    {
+      "id": 1685438974787,
+      "photo": "./assets/img/featured_3.jpg",
+      "title": "House in West America-2",
+      "content": "Donec -2"
+    }
+  ],
+  "fav": []
+}

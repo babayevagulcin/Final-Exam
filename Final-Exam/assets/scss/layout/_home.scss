@@ -1,0 +1,20 @@
+#home {
+  background-image: url(/assets/img/home_slider_bcg.jpg);
+  background-position: center;
+  background-size: cover;
+  .home {
+    height: 90vh;
+    .home-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      h1 {
+        color: #fff;
+        font-size: 82px;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#footer{
+    margin-top: 100px;
+    background-color: #040b1d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .footer{
+        p{
+            text-align: center;
+            opacity: 0.7;
+            color: white;
+            font-weight: 200;
+            span{
+                color: #040b1d;
+            }
+        }
+    }
+}
